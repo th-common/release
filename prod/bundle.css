@@ -1,4 +1,4 @@
-/* Compiled from STAGE on 2025-10-23 16:06 */
+/* Compiled from STAGE on 2025-10-24 16:19 */
 /* common */
 h1.h1, h2.h1, h3.h1, h4.h1, h5.h1, h6.h1,
 h1.h2, h2.h2, h3.h2, h4.h2, h5.h2, h6.h2,
@@ -182,10 +182,15 @@ h1.h6, h2.h6, h3.h6, h4.h6, h5.h6, h6.h6 {
 }
 .page__services.phase-2 .top-body-section p {
   line-height: 1.5rem;
+  text-wrap: pretty;
+}
+.page__services.phase-2 .hgm-blockquote {
+  padding: 0;
 }
 .page__services.phase-2 .hgm-blockquote p {
   font-size: 1.25rem;
   line-height: 1.5rem;
+  text-wrap: pretty;
 }
 .page__services.phase-2 .region-featured-services-search {
   margin: 0;
