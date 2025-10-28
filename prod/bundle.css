@@ -1,4 +1,4 @@
-/* Compiled from STAGE on 2025-10-24 16:19 */
+/* Compiled from STAGE on 2025-10-28 16:54 */
 /* common */
 h1.h1, h2.h1, h3.h1, h4.h1, h5.h1, h6.h1,
 h1.h2, h2.h2, h3.h2, h4.h2, h5.h2, h6.h2,
@@ -170,7 +170,7 @@ h1.h6, h2.h6, h3.h6, h4.h6, h5.h6, h6.h6 {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.25rem;
+  top: 0.15rem;
   inline-size: 20px;
   block-size: 20px;
   background-color: #000;
