@@ -1,0 +1,7 @@
+/* providers */
+body.page__hgm_provider_search .hgm-providers-search__provider-card .hgm-card.feed .hgm-card__body.provider .provider__wrapper {
+	min-height: 0px !important;
+}
+body.page__hgm_provider_search .hgm-card.feed .hgm-card__body.provider {
+	min-height: 0px !important;
+}
