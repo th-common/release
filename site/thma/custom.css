@@ -1,0 +1,11 @@
+/* widget styling */
+html #relatedProvidersWrapper .hgm-button {
+    background-color: var(--colors-links-and-buttons-button-background);
+    border-color: var(--colors-links-and-buttons-button-background);
+    font-weight: 400;
+    font-size: 100%;
+
+    &:hover {
+        background-color: var(--colors-links-and-buttons-button-background-hover);
+    }
+}
