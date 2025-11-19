@@ -1,4 +1,4 @@
-/* Compiled from STAGE on 2025-10-23 16:06 */
+/* Compiled from STAGE on 2025-11-19 12:59 */
 (() => {
   function pgServices() {
     const body = document.body;
@@ -7,7 +7,7 @@
     if (!topBodySection || topBodySection.dataset.service !== "phase-2") return;
     body.classList.add("phase-2");
     const legacyContainer = document.querySelector(".services-search .container .row .col");
-    const rowContainer = document.querySelector(".services-search .container .row");
+    const rowContainer = legacyContainer.closest(".row");
     const popularServLnks = document.querySelector(".region-featured-services-search");
     if (legacyContainer && topBodySection && topBodySection.parentNode !== legacyContainer) {
       legacyContainer.appendChild(topBodySection);
