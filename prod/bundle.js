@@ -1,4 +1,4 @@
-/* Compiled from STAGE on 2025-11-19 12:59 */
+/* Compiled from STAGE on 2025-12-02 10:33 */
 (() => {
   function pgServices() {
     const body = document.body;
@@ -62,4 +62,29 @@
   } else {
     pgServices();
   }
+})();
+(function() {
+  function matchHeights() {
+    const groups = document.querySelectorAll('[class*="cmp-matchheight-"]');
+    const viewportWidth = window.innerWidth;
+    groups.forEach((group) => {
+      const className = Array.from(group.classList).find((cls) => cls.startsWith("cmp-matchheight-")).replace("cmp-matchheight-", "");
+      const children = group.querySelectorAll(`.${className}`);
+      children.forEach((el) => el.style.height = "");
+      if (viewportWidth > 768 && children.length > 1) {
+        let maxHeight = 0;
+        children.forEach((el) => {
+          const h = el.offsetHeight;
+          if (h > maxHeight) maxHeight = h;
+        });
+        children.forEach((el) => el.style.height = `${maxHeight}px`);
+      }
+    });
+  }
+  let resizeTimeout;
+  window.addEventListener("resize", () => {
+    if (resizeTimeout) cancelAnimationFrame(resizeTimeout);
+    resizeTimeout = requestAnimationFrame(matchHeights);
+  });
+  document.addEventListener("DOMContentLoaded", matchHeights);
 })();
