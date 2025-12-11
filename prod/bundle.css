@@ -1,4 +1,4 @@
-/* Compiled from STAGE on 2025-12-03 14:37 */
+/* Compiled from STAGE on 2025-12-11 11:42 */
 /* common */
 h1.h1, h2.h1, h3.h1, h4.h1, h5.h1, h6.h1,
 h1.h2, h2.h2, h3.h2, h4.h2, h5.h2, h6.h2,
@@ -109,6 +109,34 @@ h1.h6, h2.h6, h3.h6, h4.h6, h5.h6, h6.h6, p.h6 {
 
 .nobr {
   text-wrap: nowrap;
+}
+
+.bg-gray-5 {
+  background-color: var(--colors-gray-5);
+}
+
+.bg-gray-10 {
+  background-color: var(--colors-gray-10);
+}
+
+.bg-gray-20 {
+  background-color: var(--colors-gray-20);
+}
+
+.bg-gray-40 {
+  background-color: var(--colors-gray-40);
+}
+
+.bg-gray-60 {
+  background-color: var(--colors-gray-60);
+}
+
+.bg-gray-70 {
+  background-color: var(--colors-gray-70);
+}
+
+.bg-gray-85 {
+  background-color: var(--colors-gray-85);
 }
 
 .content-type-hg_provider .hgm-provider-main .hgm-provider-main__col-left .hgm-marquee-goto-links li {
