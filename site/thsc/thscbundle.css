@@ -1,17 +1,17 @@
-/* Compiled from THSC on 2025-12-08 13:18 */
+/* Compiled from THSC on 2025-12-12 17:06 */
 /* common.scss */
 .color-primary {
   color: var(--colors-primary-50);
 }
 
-/* page__thsohubparent */
-.page__thsohubparent .hgm-marquee-two-column__breadcrumbs {
+/* hgm-marquee-two-column */
+.hgm-marquee-two-column__breadcrumbs {
   margin-bottom: 0;
 }
-.page__thsohubparent .hgm-marquee-two-column .hgm-breadcrumb {
+.hgm-marquee-two-column .hgm-breadcrumb {
   background-color: transparent;
 }
-.page__thsohubparent .marquee-title {
+.hgm-marquee-two-column h1.marquee-title:has(+ .marquee-sc) {
   text-wrap: pretty;
   font-size: max(var(--fonts-h2-size-min), min(var(--fonts-h2-size), 4.70588vw));
   line-height: max(var(--fonts-h2-line-height-min), min(var(--fonts-h2-line-height), 4.70588vw));
@@ -27,6 +27,9 @@ body:not(.page__node__edit) .hgm-section.section-bg-full-width {
   width: 100vw;
 }
 
+.hgm-section.hub-parent-cards-icon .hgm-card {
+  border-radius: 1.25rem;
+}
 .hgm-section.padding-narrow .hgm-section__component-row {
   padding: 0 calc(var(--bs-gutter-x) / 2);
   justify-content: space-between;
