@@ -9,3 +9,12 @@ html #relatedProvidersWrapper .hgm-button {
         background-color: var(--colors-links-and-buttons-button-background-hover);
     }
 }
+
+html #relatedProvidersWrapper .actions a,
+html #relatedProvidersWrapper .provider__address-region a {
+    color: var(--colors-links-and-buttons-text-link);
+
+    &:hover {
+        color: var(--colors-primary-10);
+    }
+}
