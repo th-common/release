@@ -1,4 +1,4 @@
-/* Compiled from THSC on 2025-12-12 17:06 */
+/* Compiled from THSC on 2025-12-15 10:14 */
 /* common.scss */
 .color-primary {
   color: var(--colors-primary-50);
@@ -150,6 +150,22 @@ form.hgm-tabs.solid .hgm-tabs__content {
 form.hgm-tabs.solid .hgm-tabs__content .hgm-card {
   margin: 0 0 2rem;
   border: transparent;
+}
+form.hgm-tabs.solid .hgm-tabs__content .ctas {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+form.hgm-tabs.solid .hgm-tabs__content .ctas a {
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  form.hgm-tabs.solid .hgm-tabs__content .ctas {
+    flex-direction: row;
+  }
+  form.hgm-tabs.solid .hgm-tabs__content .ctas a {
+    flex: 1;
+  }
 }
 form.hgm-tabs.solid .hgm-tabs__content .hgm-button.large {
   font-size: 1.35rem;
