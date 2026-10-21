@@ -1,4 +1,4 @@
-/* Compiled from th-common on 2026-10-15 15:19 */
+/* Compiled from th-common on 2026-10-21 15:25 */
 /* common */
 h1.h1, h2.h1, h3.h1, h4.h1, h5.h1, h6.h1,
 h1.h2, h2.h2, h3.h2, h4.h2, h5.h2, h6.h2,
@@ -497,6 +497,9 @@ body.thma .hgm-tabs.solid .hgm-tabs__radio:checked + .hgm-tabs__label:hover {
   color: inherit;
 }
 
+body.thma .hgm-provider-ratings-reviews__stars .star:before {
+  color: var(--colors-primary-50);
+}
 body.thma #hgmProvidersResultList .overall-rating .stars .star::before {
   color: var(--colors-primary-50);
 }
