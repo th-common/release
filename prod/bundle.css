@@ -1,4 +1,4 @@
-/* Compiled from th-common on 2026-10-21 15:25 */
+/* Compiled from th-common on 2026-11-09 17:58 */
 /* common */
 h1.h1, h2.h1, h3.h1, h4.h1, h5.h1, h6.h1,
 h1.h2, h2.h2, h3.h2, h4.h2, h5.h2, h6.h2,
@@ -476,14 +476,14 @@ h1.h6, h2.h6, h3.h6, h4.h6, h5.h6, h6.h6, p.h6 {
 }
 
 /* Tabs component */
-body.thma .hgm-tabs.solid .hgm-tabs__radio:not(:checked) + label:hover {
+body.thma .hgm-tabs.solid .hgm-tabs__label:hover {
   background-color: var(--colors-gray-10);
 }
-body.thma .hgm-tabs.solid .hgm-tabs__radio:checked + .hgm-tabs__label {
+body.thma .hgm-tabs.solid .hgm-tabs__label[aria-selected=true] {
   background-color: var(--colors-accordion-and-tabs-background-active);
   color: var(--colors-white);
 }
-body.thma .hgm-tabs.solid .hgm-tabs__radio:checked + .hgm-tabs__label:hover {
+body.thma .hgm-tabs.solid .hgm-tabs__label[aria-selected=true]:hover {
   background-color: #8d4d9b;
   cursor: default;
 }
